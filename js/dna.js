@@ -1482,14 +1482,5 @@ class DNA {
         pop();
     }
 
-    // 添加绘制版权信息的方法
-    drawCopyright() {
-        push();
-        fill(0); // 黑色文字
-        textAlign(RIGHT, BOTTOM);
-        textSize(14);
-        // 右下角位置
-        text("@华政附高 版权所有", width/2 - 10, height/2 - 10);
-        pop();
-    }
+
 } 
